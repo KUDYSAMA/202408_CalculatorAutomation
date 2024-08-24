@@ -25,11 +25,12 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+    	//打印输出
         System.out.println("This is a simple calculator program.");
         System.out.println("This program will perform the following operations:");
-
+        //这个程序将执行以下操作：
         int num1 = 10;
-        int num2 = 5;
+        int num2 = 5;//定义两个整数
 
         System.out.println("Addition: " + add(num1, num2));
         System.out.println("Subtraction: " + subtract(num1, num2));
